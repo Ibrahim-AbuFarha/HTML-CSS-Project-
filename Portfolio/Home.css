@@ -25,7 +25,6 @@ html {
   html {
     font-size: 50%;
   }
-  
 }
 body {
   background: var(--bg-color);
@@ -77,6 +76,15 @@ section {
 .home-content {
   flex: 0 1 50%;
   animation: fade-in 1s linear;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 100%;
+  }
 }
 
 @media (width<1080px) {
@@ -244,15 +252,6 @@ section {
   font-size: 1.2rem;
 }
 
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 100%;
-  }
-}
 /*===========Skills =========*/
 .skills__header {
   font-size: 4.5rem;
