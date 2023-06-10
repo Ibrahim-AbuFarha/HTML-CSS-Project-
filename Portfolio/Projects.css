@@ -107,6 +107,9 @@ span {
   width: 100%;
   height: 100%;
   transition: 0.5s ease;
+  
+}
+.figma img{
   object-fit: cover;
 }
 .project-box:hover img {
